@@ -1,0 +1,1857 @@
+/* Reset Default Browser Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(243, 243, 243); /* Background color for the entire page */
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between logo and text */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  outline: none; /* Remove default focus outline */
+}
+
+
+
+/* First Header Styling ===> Brand */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 80px;
+  background-color: white;
+  border-bottom: 1px solid lightgray; /* Add a line to separate header from navbar */
+}
+
+.img1 {
+  height: 22px;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.img2 {
+  height: 22px;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.img3 {
+  height: 22px;
+  font-size: 24px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-top: 10px;
+  margin-left: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.img4 {
+  height: 22px;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+/* Second header */
+.nav_bar {
+  display: flex;
+  background-color: white;
+  justify-content: space-between; 
+  padding: 20px 80px;
+  height: 60px; 
+  border-bottom: 1px solid lightgray; 
+  align-items: center; /* Ensure items are vertically aligned */
+  cursor: pointer;
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; /* Allow boxes to wrap if there's insufficient space */
+  gap: 10px; /* Add spacing between rows and columns */
+}
+
+.row span {
+  margin: 0 10px; /* Add margin between words if needed */
+  font-size: 18px; /* Adjust font size */
+}
+
+
+.row .button-icon1 {
+    width: 7px;
+    height: 11px;
+    margin-right: 10px;
+    position: relative;
+    top: 0px;
+    left: 4px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.row .button-icon2 {
+    width: 7px;
+    height: 11px;
+    margin-right: 10px;
+    position: relative;
+    top: 0px;
+    left: 4px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.row .button-germany {
+  width: 29px;
+  height: 28px;
+  margin-right: 9px;
+  margin-bottom: -12px;
+  position: relative;
+  top: -3px;
+  left: 5px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.action_bar {
+  margin-right: 4%;
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center;
+  color: rgb(105, 100, 100); 
+  gap: 20px; 
+  cursor: pointer;
+}
+
+.action_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/* Search Bar Styling */
+
+.search_bar {
+  height: 40px;
+  min-width: 200px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  outline: 2px solid rgb(67, 129, 245);
+  outline-offset: 2px;
+  border-radius: 5px;
+  border: none;
+ 
+}
+
+.search_icon {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.search_input {
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    outline: none; /* Remove default focus outline */
+}
+
+
+ /* Styling for the menu bar */
+.menu-bar {
+  display: flex;
+  flex-direction: column; 
+  font-family: Arial, sans-serif;
+  position: absolute; 
+  left: 10%; 
+  top: 29%; 
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 10; 
+}
+
+/* Styling for all menu items */
+.menu-bar a {
+  text-decoration: none;
+  color: rgb(68, 65, 65);
+  font-size: 16px;
+  padding: 10px;
+  transition: color 0.3s ease;
+  margin-bottom: 8px;
+}
+
+.menu-bar a:hover {
+  color: blue;  /* Highlight color on hover */
+}
+
+/* Styling for the first menu item */
+.menu-bar a:first-child {
+  background-color: lightblue;
+  color: black;
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  width: 140%; 
+  margin-top: 18px;
+}
+
+
+
+
+/* Banner Section Styling */
+
+.product-container {
+  display: flex;
+  width: 80%;
+  height: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Added shadow for better effect */
+}
+
+.image-container .text-overlay {
+  position: absolute;
+  left: 45px;
+  top: 55px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+} 
+
+.image-container .text-overlay span {
+  font-weight: normal; /* Ensure text is not bold */
+  font-size: 30px; 
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 18px; /* Add space above the button */
+}
+
+.container {
+  display: flex;
+  height: 65vh;
+  width: 85%;
+  margin: 30px auto; /* Add space on top and center the container horizontally */
+  border: 1px solid lightgray;
+  background-color: white;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  border-radius: 4px;
+  margin-left: 10%; /* Add more space on the left */
+  overflow: hidden;
+  flex-direction: column; /* Arrange items in a column */
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  position: relative; 
+  align-content: center;
+  top: 370px; 
+  left: 5px; 
+}
+
+
+
+
+/* Styling for the boxes */
+.box {
+  flex: 0 0 auto;  
+  width: 200px; 
+  height: 115px;
+  border: 1px solid lightgray; 
+  border-radius: 10px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+  margin-top: 5px;
+  margin-right: 25px; 
+  margin-bottom: 10px; 
+  margin-left: 930px;
+}
+
+.box.box1 {
+  background-color: rgb(163, 204, 230);
+  font-size: 16px; /* Increase font size for box 2 */
+  display: flex;
+  justify-content: flex-end; /* Align content to the end horizontally */
+  align-items: center; /* Center content vertically */
+  padding-right: 20px; /* Add padding to move text away from the border */
+}
+
+.box.box1 p {
+  color: black;
+}
+
+.icon {
+  width: 22px;
+  height: 35px;
+  margin-left: -40px;
+  float: left;
+}
+
+.text {
+  flex: 1; /* Allows the text to take up remaining space */
+}
+
+.button1 {
+    padding: 8px 16px;
+    background-color: rgb(49, 49, 240);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: -27px;
+    margin-left: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150%;
+    height: 30px;
+}
+
+.button2 {
+  padding: 8px 16px;
+  background-color: white;
+  color: blue;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 32px;
+  margin-bottom: 2px;
+  margin-left: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150%;
+  height: 30px;
+}
+
+.box.box2 {
+  background-color: rgb(243, 128, 51);
+  font-size: 19px; /* Increase font size for box 2 */
+  display: flex;
+  justify-content: flex-start; /* Align content to the start horizontally */
+  align-items: center; /* Center content vertically */
+  padding-left: 20px; /* Add padding to move text away from the border */
+}
+
+.box.box3 {
+  background-color: rgb(84, 197, 212); 
+  font-size: 19px; /* Increase font size for box 2 */
+  display: flex;
+  justify-content: flex-start; /* Align content to the start horizontally */
+  align-items: center; /* Center content vertically */
+  padding-left: 20px;
+} 
+
+
+
+
+
+/* Deal and offer styling */
+.container1 {
+  width: 1145px;
+  height: 240px;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  margin-top: -3px;
+  padding: 20px;
+}
+
+p {
+  color: white;
+}
+
+.box-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px; /* Add space above the boxes */
+}
+
+.boxes {
+  width: 45px;
+  height: 52px;
+  background-color: rgb(94, 89, 89);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+h3 {
+    font-size: 1.2rem;
+    display: flex;
+    margin-left: -4%;
+    margin-right: -77%;
+    margin-top: -12px;
+} 
+
+/* Styling p */
+.box-p {
+    margin: 32px -5px 9px 8px;
+    color: white;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+/* Styling the vertical lines */
+.vertical-line {
+  width: 1px;
+  height: 242px;
+  background-color: lightgray;
+  display: inline-block;
+  margin: -134px -74px;
+}
+
+
+/* Styling the images */
+.vertical-line img {
+  width: 105px; /* Fixed width */
+  height: 105px; /* Fixed height */
+  object-fit: cover; /* Ensures the image fits without distortion */
+  border-radius: 5px; /* Optional: Rounded corners */
+  margin-bottom: 15px; /* Space between the image and text */
+  position: relative; /* Allow independent positioning */
+  left: 30px; /* Adjust this value to move the image left or right */
+  top: 35px; /* Adjust this value to move the image up or down */
+  margin-left: -4%;
+  margin-top: -12px;
+}
+
+/* Styling the text (product names) */
+.product {
+  font-size: 1rem; /* Adjust font size */
+  color: #333; /* Text color */
+  font-weight: 500; /* Optional: Make the text semi-bold */
+  margin: 0; /* Remove default margins */
+  text-align: center; /* Center align the text */
+  position: relative; /* Allow positioning adjustments */
+  top: 20px; /* Move the text slightly down */
+  left: 48px; /* Adjust this value to move the text left or right */
+}
+
+.discount {
+  /* this is my discount button */
+  background-color: pink;
+  color: red;
+  font-weight: bold;
+  padding: 10px 20px; /* Increased padding for larger size */
+  font-size: 16px; /* Increased font size */
+  border-radius: 20px;
+  position: absolute; /* Change position to absolute for precise placement */
+  top: 180px; /* Adjust the top position */
+  right: -120px; /* Adjust the right position */
+  cursor: pointer;
+}
+
+
+/* Positioning the lines */
+.line-1 { 
+  left: 36%; 
+  position: absolute;
+}
+.line-2 { 
+  left: 48%; 
+  position: absolute; 
+}
+.line-3 { 
+  left: 62%; 
+  position: absolute; 
+}
+.line-4 { 
+  left: 75%; 
+  position: absolute; 
+}
+.line-5 { 
+  left: 88%; 
+  position: absolute; 
+}
+
+
+
+/* home and outdoor */
+.container2 {
+  width: 1145px;
+  height: 265px;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-top: -25px; /* Reduced margin-bottom to create less space */
+  padding: 20px;
+}
+
+.decor img{
+  width: 26%; /* Adjust the width of the image to fit the container */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  margin-top: -20px; /* Add space above the image */
+  margin-left: -2%;
+}
+
+.text-written {
+  position: absolute;
+  left: 160px;
+  top: 895px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.text-written .h {
+  font-weight: bold; 
+  font-size: 25px; 
+}
+
+.text-written .o {
+  font-weight: bold;
+    font-size: 25px;
+    margin-left: -128px;
+    bottom: -33px;
+    position: relative;
+}
+
+.source {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 50px; /* Increased margin to move the button below the text */
+  display: block; /* Ensure the button is displayed as a block element */
+  text-align: center; /* Center align the button */
+}
+
+
+.vertical-lines {
+  width: 1px;
+  height: 242px;
+  background-color: lightgray;
+  display: inline-block;
+  margin: -134px -74px;
+}
+
+
+.line1 { 
+    left: 25%;
+    position: absolute;
+    height: 43%;
+    width: 1px;
+    background-color: lightgray;
+    margin-top: -268px;
+    margin-left: 83px;
+}
+
+
+.line2 { 
+  left: 25%;
+  position: absolute;
+  height: 43%;
+  width: 1px;
+  background-color:  lightgray;
+  margin-top: -268px;
+  margin-left: 290px;
+}
+
+
+.line3  { 
+  left: 25%;
+  position: absolute;
+  height: 43%;
+  width: 1px;
+  background-color: lightgray;
+  margin-top: -268px;
+  margin-left: 500px;
+}
+
+
+.line4 { 
+  left: 25%;
+  position: absolute;
+  height: 43%;
+  width: 1px;
+  background-color: lightgray;
+  margin-top: -268px;
+  margin-left: 725px;
+}
+
+
+.vertical-lines hr {
+  border: none; 
+  height: 2px; 
+  background-color: lightgray;
+  margin: 115px auto; /* Center horizontally and keep fixed */
+  width: 222.5px; 
+}
+
+.top-images {
+    width: 85px;
+    height: 95px;
+    margin-top: -97px;
+    margin-left: 122px;
+    margin-right: 54px;
+    margin-bottom: -118px;
+}
+
+
+
+/* Styling the bottom images */
+.bottom-images {
+  width: 85px;
+  height: 95px;
+  margin-top: -118px;
+  margin-left: 122px;
+  margin-right: 54px;
+  margin-bottom: 7px;
+}
+
+.out {
+  color: black;
+  font-size: 1.1rem;
+  margin-left: 20px;
+  margin-top: 12px;
+  margin-bottom: -108px;
+  text-align: center;
+  position: relative;
+}
+
+.door {
+  color: rgb(75, 74, 74);
+  font-size: 0.9rem;
+  margin-left: 20px;
+  margin-top: 119px;
+  margin-bottom: -113px;
+  text-align: center;
+  position: relative;
+}
+
+
+.out1 {
+    color: black;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    margin-top: -103px;
+    margin-bottom: 130px;
+    text-align: center;
+    position: relative;
+}
+
+.door1 {
+  color: rgb(75, 74, 74);
+  font-size: 0.9rem;
+  margin-left: 20px;
+  margin-top: -120px;
+  margin-bottom: 8px;
+  text-align: center;
+  position: relative;
+}
+
+
+
+
+
+/* electronic gadgets */
+.container3 {
+  width: 1145px;
+  height: 265px;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-top: 20px; /* Increased margin-top to create space between container2 and container3 */
+  margin-bottom: 10px; /* Add space below the container */
+  padding: 20px;
+}
+
+.decor1 img{
+  width: 26%; /* Adjust the width of the image to fit the container */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  margin-top: -20px; /* Add space above the image */
+  margin-left: -2%;
+}
+
+.text-written1 {
+  position: absolute;
+  left: 160px;
+  top: 895px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.text-written1 .c {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: -4px;
+    bottom: -277px;
+    position: relative;
+}
+
+.text-written1 .e {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: -130px;
+    bottom: -305px;
+    position: relative;
+}
+
+.text-written1 .g {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: -4px;
+  bottom: -305px;
+  position: relative;
+}
+
+.source1 {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 320px; /* Increased margin to move the button below the text */
+  display: block; /* Ensure the button is displayed as a block element */
+  text-align: center; /* Center align the button */
+}
+
+
+.vertical-lines1 {
+  width: 1px;
+  height: 242px;
+  background-color: lightgray;
+  display: inline-block;
+  margin: -134px -74px;
+}
+
+
+.line5 { 
+    left: 25%;
+    position: absolute;
+    height: 43%;
+    width: 1px;
+    background-color: lightgray;
+    margin-top: -268px;
+    margin-left: 83px;
+}
+
+
+.line6 { 
+  left: 25%;
+  position: absolute;
+  height: 43%;
+  width: 1px;
+  background-color:  lightgray;
+  margin-top: -268px;
+  margin-left: 290px;
+}
+
+
+.line7  { 
+  left: 25%;
+  position: absolute;
+  height: 43%;
+  width: 1px;
+  background-color: lightgray;
+  margin-top: -268px;
+  margin-left: 500px;
+}
+
+
+.line8 { 
+  left: 25%;
+  position: absolute;
+  height: 43%;
+  width: 1px;
+  background-color: lightgray;
+  margin-top: -268px;
+  margin-left: 725px;
+}
+
+
+.vertical-lines1 hr {
+  border: none; 
+  height: 2px; 
+  background-color: lightgray;
+  margin: 115px auto; /* Center horizontally and keep fixed */
+  width: 222.5px; 
+}
+
+.top-images1 {
+  width: 100px;
+  height: 100px;
+  margin-top: -98px;
+  margin-left: 108px;
+  margin-right: 54px;
+  margin-bottom: -116px;
+}
+
+
+/* Styling the bottom images */
+.bottom-images1 {
+  width: 100px;
+  height: 100px;
+  margin-top: -118px;
+  margin-left: 107px;
+  margin-right: 54px;
+  margin-bottom: 9px;
+}
+
+.out2 {
+  color: black;
+  font-size: 1.1rem;
+  margin-left: 20px;
+  margin-top: 12px;
+  margin-bottom: -108px;
+  text-align: center;
+  position: relative;
+}
+
+.door2 {
+  color: rgb(75, 74, 74);
+  font-size: 0.9rem;
+  margin-left: 20px;
+  margin-top: 119px;
+  margin-bottom: -113px;
+  text-align: center;
+  position: relative;
+}
+
+
+.out3 {
+    color: black;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    margin-top: -103px;
+    margin-bottom: 130px;
+    text-align: center;
+    position: relative;
+}
+
+
+.door3 {
+  color: rgb(75, 74, 74);
+  font-size: 0.9rem;
+  margin-left: 20px;
+  margin-top: -120px;
+  margin-bottom: 8px;
+  text-align: center;
+  position: relative;
+}
+
+
+
+
+/* request supplier */
+
+.image-mask {
+  position: relative; /* Enable positioning for the pseudo-element */
+  display: inline-block; /* Keep the image and mask together */
+}
+
+.image-mask img {
+    display: block;
+    width: 1146px;
+    height: 380px;
+    object-fit: cover;
+    position: relative;
+    left: 135px;
+    top: 11px;
+    margin-bottom: 15px;
+    margin-right: 29px;
+}
+
+.image-mask::after {
+  content: "";
+    position: absolute;
+    top: 11px;
+    left: 134.50px;
+    width: 1146px;
+    height: 380px;
+    background-color: rgba(7, 122, 189, 0.5);
+    pointer-events: none;
+}
+
+.container4 {
+  width: 430px;
+  height: 310px;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-left: 820px;
+  margin-top: -345px;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.request {
+  width: 394px;
+  height: 40px;
+  color: black;
+  background-color: white; /* Set background color to white */
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: -1px auto;
+  margin-top: -10px;
+  margin-left: -5px;
+  top: 10px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} 
+
+.request:hover {
+  background-color: #5e99d8; /* Darker shade on hover */
+  transition: 2s ease; /* Smooth transition for hover effect */
+}
+
+
+.detail-input {
+  width: calc(107% - 23px);
+  padding: 31px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: -4px;
+  margin-top: 16px;
+  margin-left: -3px;
+  outline: none;
+  box-sizing: border-box;
+  
+}
+
+/* Change input field border color on focus */
+.detail-input:focus {
+  border-color: #007BFF; /* Blue border on focus */
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5); /* Add a blue shadow */
+}
+
+.request2 {
+  width: 185px;
+  height: 28px;
+  color: #000000;
+  background-color: white;
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: -1px auto;
+  margin-left: -5px;
+  margin-top: 15px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+
+.request3 {
+  width: 127px;
+  height: 43px;
+  color: black;
+  background-color: white;
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+  font-size: 21px;
+  cursor: pointer;
+  margin: 3px auto;
+  margin-left: 8px;
+  margin-top: 10px;
+  text-align: left;
+  padding-top: 7px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.request3 .button-icon {
+  width: 11px; /* Width of the icon */
+  height: 14px; /* Height of the icon */
+  margin-right: 10px; /* Space between the icon and text */
+  position: relative; /* Enable positioning for the icon */
+  top: -17px;
+  left: 86px; /* Adjust this value to move the icon left or right */
+}
+
+
+/* request supplier text */
+
+.text-written2 .req1 {
+   font-weight: bold;
+    font-size: 30px;
+    margin-left: 189px;
+    bottom: 307px;
+    position: relative;
+    color: white;
+}
+
+.text-written2 .req2 {
+  font-weight: bold;
+    font-size: 30px;
+    margin-left: -300px;
+    bottom: 272px;
+    position: relative;
+    color: white;
+}
+
+.text-written2 .req3 {
+  font-size: 13px;
+    margin-left: 189px;
+    bottom: 265px;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.text-written2 .req4 {
+  font-size: 13px;
+    margin-left: 189px;
+    bottom: 265px;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.text-written2 .req5 {
+  font-size: 13px;
+    margin-left: 189px;
+    bottom: 265px;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.request4 {
+  width: 128px;
+    height: 24px;
+    color: white;
+    background-color: rgb(4, 99, 187);
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    margin: -1px auto;
+    margin-left: -5px;
+    margin-top: 8px;
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 13px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+
+
+/* recommend items */
+
+.recommend  {
+  font-size: 30px; /* Adjust font size */
+  color: black; /* Text color */
+  margin-left: 10%; /* Center the heading */
+  margin-top: -10px; /* Space above the heading */
+  margin-bottom: 30px; /* Space below the heading */
+}
+
+.boxes11 {
+  width: 215px;
+  height: 250px;
+  background-color: rgb(255 255 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 1px solid lightgray;
+  position: relative; /* Enable positioning */
+  top: -1px;
+  left: 115px;
+  margin: 6px; /* Add margin to increase space between boxes */
+}
+
+
+.boxes12 {
+  width: 215px;
+  height: 250px;
+  background-color: rgb(255 255 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 1px solid lightgray;
+  position: relative; /* Enable positioning */
+  top: -1px;
+  left: 115px;
+  margin: 6px; /* Add margin to increase space between boxes */
+}
+
+
+
+.fixed-images1 {
+  width: 267px;
+    height: 168px;
+    margin-top: -167px;
+    margin-left: 91px;
+    margin-right: 54px;
+    margin-bottom: -108px;
+}
+
+.fixed-images2 {
+  width: 267px;
+    height: 168px;
+    margin-top: -167px;
+    margin-left: 91px;
+    margin-right: 54px;
+    margin-bottom: -108px;
+}
+
+.cloth1 {
+  color: black;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    left: -156px;
+    bottom: -107px;
+    position: relative;
+    margin-top: -77px;
+}
+
+
+/* Styling for the text */
+.cloth2 {
+  position: absolute;
+    top: 207px;
+    left: 41px;
+    font-size: 13px;
+    color: rgb(107, 105, 105);
+}
+
+
+
+/* extra services */
+.services {
+  font-size: 30px;
+  color: black;
+  margin-left: 9%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.boxes13 {
+  width: 280px;
+    height: 200px;
+    background-color: rgb(255 255 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    position: relative;
+    top: -3px;
+    left: 118px;
+    margin: 3px;
+}
+
+.enhanced-image1 {
+  filter: brightness(90%);
+    width: 320px;
+    height: 119px;
+    margin-top: -207px;
+    margin-left: 260px;
+    margin-right: 51px;
+    margin-bottom: -127px;
+    border-radius: 8px;
+}
+
+.service1 {
+  font-weight: normal;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  left: -301px;
+  bottom: -81px;
+  top: 41px;
+  right: 0px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.service2 {
+  font-weight: normal;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    left: -399px;
+    bottom: -113px;
+    top: 60px;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+} 
+
+
+.enhanced-image2 {
+  filter: brightness(90%);
+    width: 320px;
+    height: 119px;
+    margin-top: -207px;
+    margin-left: 247px;
+    margin-right: 51px;
+    margin-bottom: -127px;
+    border-radius: 8px;
+}
+
+.service3 {
+  font-weight: normal;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  left: -301px;
+  bottom: -81px;
+  top: 41px;
+  right: 0px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.service4 {
+  font-weight: normal;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    left: -425px;
+    bottom: -113px;
+    top: 60px;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+} 
+
+
+
+.enhanced-image3{
+  filter: brightness(90%);
+    width: 320px;
+    height: 119px;
+    margin-top: -207px;
+    margin-left: 345px;
+    margin-right: 51px;
+    margin-bottom: -127px;
+    border-radius: 8px;
+}
+
+.service5 {
+  font-weight: normal;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  left: -301px;
+  bottom: -81px;
+  top: 41px;
+  right: 0px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.service6 {
+  font-weight: normal;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    left: -476px;
+    bottom: -113px;
+    top: 60px;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+} 
+
+
+
+.enhanced-image4 {
+  filter: brightness(90%);
+    width: 320px;
+    height: 119px;
+    margin-top: -207px;
+    margin-left: 319px;
+    margin-right: 51px;
+    margin-bottom: -127px;
+    border-radius: 8px;
+}
+
+.service7 {
+  font-weight: normal;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  left: -301px;
+  bottom: -81px;
+  top: 41px;
+  right: 0px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.service8 {
+  font-weight: normal;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    left: -450px;
+    bottom: -113px;
+    top: 60px;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+} 
+
+
+
+.circle1 {
+  width: 55px; /* Circle width */
+  height: 55px; /* Circle height */
+  background-color: rgb(172, 217, 245);
+  outline: #ffffff;
+  border-radius: 50%; /* Makes the element a circle */
+  display: flex;
+  align-items: center; /* Center icon vertically */
+  justify-content: center; /* Center icon horizontally */
+  position: absolute; /* Position relative to the box */
+  top: 2647px;
+  right: 975px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  color: white; /* Icon color */
+  font-size: 20px; /* Adjust icon size */
+}
+
+
+
+.circle2 {
+  width: 55px; /* Circle width */
+  height: 55px; /* Circle height */
+  background-color: rgb(172, 217, 245);
+  outline: #ffffff;
+  border-radius: 50%; /* Makes the element a circle */
+  display: flex;
+  align-items: center; /* Center icon vertically */
+  justify-content: center; /* Center icon horizontally */
+  position: absolute; /* Position relative to the box */
+  top: 2650px;
+  right: 675px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  color: white; /* Icon color */
+  font-size: 20px; /* Adjust icon size */
+}
+
+
+.circle3 {
+  width: 55px; /* Circle width */
+  height: 55px; /* Circle height */
+  background-color: rgb(172, 217, 245);
+  outline: #ffffff;
+  border-radius: 50%; /* Makes the element a circle */
+  display: flex;
+  align-items: center; /* Center icon vertically */
+  justify-content: center; /* Center icon horizontally */
+  position: absolute; /* Position relative to the box */
+  top: 2650px;
+  right: 365px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  color: white; /* Icon color */
+  font-size: 20px; /* Adjust icon size */
+}
+
+
+.circle4 {
+  width: 55px; /* Circle width */
+  height: 55px; /* Circle height */
+  background-color: rgb(172, 217, 245);
+  outline: #ffffff;
+  border-radius: 50%; /* Makes the element a circle */
+  display: flex;
+  align-items: center; /* Center icon vertically */
+  justify-content: center; /* Center icon horizontally */
+  position: absolute; /* Position relative to the box */
+  top: 2650px;
+  right: 85px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  color: white; /* Icon color */
+  font-size: 20px; /* Adjust icon size */
+}
+
+
+
+.search1 {
+  width: 20px; /* Icon width */
+  height: 20px; /* Icon height */
+  font-size: 20px; /* Adjust icon size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  background: none; /* Remove background */
+  border: none; /* Remove any border */
+}
+
+.search2 {
+  width: 20px; /* Icon width */
+  height: 20px; /* Icon height */
+  font-size: 20px; /* Adjust icon size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  background: none; /* Remove background */
+  border: none; /* Remove any border */
+}
+
+
+.search3 {
+  width: 20px; /* Icon width */
+  height: 20px; /* Icon height */
+  font-size: 20px; /* Adjust icon size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  background: none; /* Remove background */
+  border: none; /* Remove any border */
+}
+
+
+.search4 {
+  width: 20px; /* Icon width */
+  height: 20px; /* Icon height */
+  font-size: 20px; /* Adjust icon size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  background: none; /* Remove background */
+  border: none; /* Remove any border */
+}
+
+
+
+
+/* suppliers */
+.suppliers {
+  font-size: 30px;
+  color: black;
+  margin-left: 9%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Container for all flags with text */
+.flags-container {
+    display: grid;
+    grid-template-columns: repeat(5, 0fr);
+    gap: -34px;
+    row-gap: 50px;
+    column-gap: -50px;
+    margin-left: 2.3%;
+    margin-top: 60px;
+    padding: -5px;
+}
+
+/* Individual flag-text pair container */
+.flag-item {
+  display: flex;
+  flex-direction: column; /* Stack flag and text vertically */
+  align-items: center; /* Center flag and text horizontally */
+}
+
+/* Style for the flag images */
+.flag {
+  width: 50px;
+  height: auto;
+  margin-bottom: -11px;
+  margin-top: -32px;
+}
+
+/* Style for the text below the flag */
+.flag-text1 {
+  margin-top: -34px;
+    margin-left: 167px;
+    margin-right: 13px;
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold; /* Center text */
+  font-weight: bold;
+}
+
+.flag-text2 {
+    margin-top: 0px;
+    margin-left: 162px;
+    margin-right: 10px;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* subscribe */
+.container5 {
+  width: 1500px;
+  height: 190px;
+  background-color: #e0dbdb;
+  border-radius: 5px;
+  margin-left: -10%;
+  margin-right: 90%;
+  margin-top: 37px;
+  padding: 37px;
+}
+
+
+/* Style for the heading */
+.sub1 {
+  font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: -5px;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+/* Style for the paragraph */
+.sub2 {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 18px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: -10px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+/* Style for the email input field */
+.email-input {
+  width: calc(35% - 197px);
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #b5b4b4;
+  border-radius: 9px;
+  margin-bottom: 18px;
+  margin-left: 580px;
+  /* margin-right: -10px; */
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Change input field border color on focus */
+.email-input:focus {
+  border-color: #007BFF; /* Blue border on focus */
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5); /* Add a blue shadow */
+}
+
+/* Style for the subscribe button */
+.subscribe-button {
+  background-color: #007BFF; /* Blue background */
+  color: #fff; /* White text */
+  padding: 10px 20px; /* Add padding inside the button */
+  font-size: 16px; /* Font size for button text */
+  font-weight: bold; /* Make text bold */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Change button color on hover */
+.subscribe-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* about us */
+.container6 {
+  width: 1445px;
+    height: 310px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: -6%;
+    margin-right: 74%;
+    margin-top: 0px;
+    padding: 37px;
+    border-bottom: 68px solid #e0dbdb;
+}
+
+.container6 img {
+  width: 178px;
+  height: 46px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 18px;
+  margin-left: 12%;
+}
+
+.container6 .img-fb {
+    width: 2%;
+    height: 22%;
+    margin-top: 15px;
+    margin-left: 12%;
+}
+
+.container6 .img-fb1 {
+    width: 2%;
+    height: 16%;
+    margin-top: -32px;
+    margin-left: 15%;
+    margin-bottom: 27px;
+}
+.container6 .img-fb2 {
+  width: 2%;
+  height: 22%;
+  margin-top: -62px;
+  margin-left: 18%;
+  margin-bottom: 45px;
+}
+
+.container6 .img-fb3 {
+  width: 2%;
+  height: 22%;
+  margin-top: -81px;
+  margin-left: 21%;
+  margin-bottom: 65px;
+}
+
+.container6 .img-fb4 {
+  width: 2%;
+  height: 22%;
+  margin-top: -111px;
+  margin-left: 24%;
+  margin-bottom: 83px;
+}
+
+
+.container6 .about1 {
+  font-size: 15px;
+  font-weight: normal;
+  color: #7d7c7c;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-top: 18px;
+  margin-left: -735px;
+}
+
+.container6 .about2 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #7d7c7c;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: -1px;
+    margin-left: -826px; 
+}
+
+
+
+/* .container6 h2 {
+  font-size: 24px;
+  color: black;
+  margin-left: 42%;
+  margin-top: -248px;
+  margin-bottom: 40px;
+}
+
+.container6 p {
+  font-size: 18px;
+  color: #aba9a9;
+  margin-left: 42%;
+  margin-top: -27px;
+  margin-bottom: 33px;
+}
+
+.container6 h2 {
+  font-size: 24px;
+  color: black;
+  margin-left: 42%;
+  margin-top: -248px;
+  margin-bottom: 40px;
+}
+
+.container6 p {
+  font-size: 18px;
+  color: #aba9a9;
+  margin-left: 42%;
+  margin-top: -27px;
+  margin-bottom: 33px;
+} */
+
+
+.info1  {
+  flex: 1;
+  margin: -238px 551px;
+}
+
+.info2 {
+  flex: 1;
+  margin: 117px 624px;
+  display: inline-block; /* Corrected display property */
+  text-align: justify; /* Justify text for better readability */
+  max-width: 100%;
+  margin-left: 52%;
+  margin-top: 117px;
+  margin-bottom: 0px;
+}
+
+.info3 {
+  margin-left: 67%;
+  margin-top: -11%;
+}
+
+/* Heading styles */
+.info1 h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.info2 h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 2px;
+
+}
+
+.info3 h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 24px;
+  margin-top: 23px;
+}
+
+/* Paragraph styles */
+.info1 p  {
+  font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin: 1px -1px;
+    
+}
+
+
+.info2 p {
+  font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin: 1px -1px;
+    display: inline-block; /* Corrected display property */
+    text-align: justify; /* Justify text for better readability */
+    max-width: 100%; /* Ensure it doesn't exceed the container width */
+}
+
+.info3 p {
+    font-size: 16px;
+    color: #555;
+    margin-top: -16px;
+    margin-bottom: 21px;
+}
+
+
+.info4 h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 2px;
+  margin-left: 81%;
+  margin-top: -138px;
+}
+
+
+.container6 .img-app {
+  margin-top: 2px;
+    margin-left: 80%;
+    margin-bottom: 45px;
+    overflow-x: hidden;
+}
+
+.container6 .img-app1 {
+  margin-top: -41px;
+    margin-left: 80%;
+    margin-bottom: 31px;
+}
+
+
+/* footer section */
+footer {
+  text-align: center; /* Centers the text */
+  font-size: 14px; /* Adjust the font size */
+  color: #777; /* Sets a light gray color */
+  padding: 10px 0; /* Adds spacing above and below the text */
+  background-color: #f9f9f9; /* Light background color */
+  border-top: 1px solid #ddd; /* Adds a border at the top */
+}
+
+.foot {
+  color: #000;
+}
+

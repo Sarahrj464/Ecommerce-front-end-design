@@ -1,0 +1,1601 @@
+/* Reset Default Browser Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+background-color: rgb(243, 243, 243); /* Background color for the entire page */
+margin: 0;
+padding: 0;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+.logo {
+height: auto; /* Maintain aspect ratio */
+margin-right: 20px; /* Space between logo and text */
+cursor: pointer; /* Change cursor to pointer on hover */
+outline: none; /* Remove default focus outline */
+}
+
+
+
+/* First Header Styling ===> Brand */
+#header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 15px 80px;
+background-color: white;
+border-bottom: 1px solid lightgray; /* Add a line to separate header from navbar */
+}
+
+.img1 {
+  height: 22px;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.img2 {
+  height: 22px;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.img3 {
+  height: 22px;
+  font-size: 24px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-top: 10px;
+  margin-left: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.img4 {
+  height: 22px;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+/* Second header */
+.nav_bar {
+display: flex;
+background-color: white;
+justify-content: space-between; 
+padding: 20px 80px;
+height: 60px; 
+border-bottom: 1px solid lightgray; 
+align-items: center; /* Ensure items are vertically aligned */
+}
+
+
+.row {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap; /* Allow boxes to wrap if there's insufficient space */
+gap: 10px; /* Add spacing between rows and columns */
+}
+
+.row span {
+margin: 0 10px; /* Add margin between words if needed */
+font-size: 18px; /* Adjust font size */
+}
+
+
+.row .button-icon1 {
+  width: 7px;
+  height: 11px;
+  margin-right: 10px;
+  position: relative;
+  top: 0px;
+  left: 4px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.row .button-icon2 {
+  width: 7px;
+  height: 11px;
+  margin-right: 10px;
+  position: relative;
+  top: 0px;
+  left: 4px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.row .button-germany {
+width: 29px;
+height: 28px;
+margin-right: 9px;
+margin-bottom: -12px;
+position: relative;
+top: -3px;
+left: 5px;
+cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.action_bar {
+margin-right: 4%;
+display: flex;
+justify-content: space-evenly; 
+align-items: center;
+color: rgb(105, 100, 100); 
+gap: 20px; 
+cursor: pointer;
+}
+
+.action_container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+
+/* Search Bar Styling */
+
+.search_bar {
+height: 40px;
+min-width: 200px;
+width: 40%;
+display: flex;
+align-items: center;
+outline: 2px solid rgb(67, 129, 245);
+outline-offset: 2px;
+border-radius: 5px;
+border: none;
+
+}
+
+.search_icon {
+  box-sizing: content-box;
+  height: 20px;
+  padding: 10px;
+  background-color: #f5f5f6;
+  color: #282c3f;
+  font-weight: 300;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.search_input {
+  background-color: #f5f5f6;
+  flex-grow: 1;
+  height: 40px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  outline: none; /* Remove default focus outline */
+}
+
+
+/* home clothing */
+.list p {
+  font-size: 17px; /* Adjust font size */
+  margin: 20px 0; /* Add margin for spacing */
+  text-align: center; /* Center the heading */
+  color: #797979; /* Change text color */
+  display: inline-flex; /* Use inline-flex to keep text in one line */
+  justify-content: center; /* Center the text horizontally */
+  align-items: center; /* Center the text vertically */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  margin-left: 87px;
+    margin-right: -57px;
+    cursor: pointer;
+}
+
+.list hr {
+  width: 18%;
+    margin: 1px auto;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    margin-left: 80px;
+    margin-right: -57px;
+}
+
+.list_item h3{
+  width: 232px;
+    height: 56px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: -8px 10px;
+}
+
+
+.list_item p{
+  width: 250px;
+  height: 56px;
+  color: #363636;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin: -22px 10px;
+  margin-left: 82px;
+  margin-right: 10px;
+}
+
+
+.list_item .arrow {
+  width: 11px;
+  height: 14px;
+  margin-right: 10px;
+  position: relative;
+  top: -26px;
+  left: 273px;
+  cursor: pointer;
+}
+
+
+.link1 {
+  text-decoration: none; /* Removes underline */
+  color: #007BFF; /* Sets the text color (blue) */
+  font-size: 16px; /* Adjusts the font size */
+  margin-left: 81px; /* Adds space between text and icon */
+  margin-top: 21px; /* Adds space on top */
+  display: flex; /* Makes the link a flex container */
+}
+
+/* Hover effect */
+.link1:hover {
+  color: #0056b3; /* Changes the color on hover */
+  text-decoration: underline; /* Adds underline on hover */ 
+}
+
+/* Active (clicked) state */
+.link1:active {
+  color: #003d80; /* Changes the color when clicked */
+}
+
+
+.list_item hr {
+  width: 18%;
+    margin: 1px auto;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    margin-left: 80px;
+    margin-right: -57px;
+}
+
+
+
+
+/* check list */
+.tickable-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column; /* Stack items vertically */
+}
+
+/* Style each list item */
+.tickable-list li {
+  display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 7px 81px;
+    top: 10px;
+    bottom: 10px;
+}
+
+/* Style the checkbox */
+.tickable-list input[type="checkbox"] {
+  margin-right: 18px;
+    margin-top: -27px;
+    width: 17px;
+    height: 45px;
+    accent-color: #007BFF;
+    background-color: none;
+}
+
+/* Add styles for checked items */
+.tickable-list input[type="checkbox"]:checked + label {
+  color: #777; /* Make the text lighter */
+}
+
+.tickable-list h3 {
+  width: 214px;
+  height: 63px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: -8px 10px;
+}
+
+.tickable-list .arrow1 {
+  width: 11px;
+  height: 14px;
+  margin-right: 10px;
+  position: relative;
+  top: -30px;
+  left: 273px;
+  cursor: pointer;
+}
+
+.tickable-list .text {
+  width: 231px;
+  height: 59px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: -22px 10px;
+  margin-left: 1px;
+  margin-right: -82px;
+  margin-top: -53px;
+  margin-bottom: -24px;
+}
+
+
+.tickable-list hr {
+  width: 18%;
+  margin: 1px auto;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  margin-left: 80px;
+  margin-right: -57px;
+}
+
+
+.link2 {
+  text-decoration: none; /* Removes underline */
+  color: #007BFF; /* Sets the text color (blue) */
+  font-size: 16px; /* Adjusts the font size */
+  margin-left: 81px; /* Adds space between text and icon */
+  margin-top: -3px; /* Adds space on top */
+  display: flex; /* Makes the link a flex container */
+}
+
+/* Hover effect */
+.link2:hover {
+  color: #0056b3; /* Changes the color on hover */
+  text-decoration: underline; /* Adds underline on hover */ 
+}
+
+/* Active (clicked) state */
+.link2:active {
+  color: #003d80; /* Changes the color when clicked */
+}
+
+
+
+/* check list2 */
+.tickable-list1 {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column; /* Stack items vertically */
+}
+
+/* Style each list item */
+.tickable-list1 li {
+  display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 7px 81px;
+    top: 10px;
+    bottom: 10px;
+}
+
+/* Style the checkbox */
+.tickable-list1 input[type="checkbox"] {
+  margin-right: 18px;
+    margin-top: -27px;
+    width: 17px;
+    height: 45px;
+    accent-color: #007BFF;
+    background-color: none;
+}
+
+/* Add styles for checked items */
+.tickable-list1 input[type="checkbox"]:checked + label {
+  color: #777; /* Make the text lighter */
+}
+
+.tickable-list1 h3 {
+  width: 214px;
+  height: 63px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: -8px 10px;
+}
+
+.tickable-list1 .arrow1 {
+  width: 11px;
+  height: 14px;
+  margin-right: 10px;
+  position: relative;
+  top: -30px;
+  left: 273px;
+  cursor: pointer;
+}
+
+.tickable-list1 .text {
+  width: 231px;
+  height: 59px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: -22px 10px;
+  margin-left: 1px;
+  margin-right: -82px;
+  margin-top: -53px;
+  margin-bottom: -24px;
+}
+
+
+.tickable-list1 hr {
+  width: 18%;
+  margin: 1px auto;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  margin-left: 80px;
+  margin-right: -57px;
+}
+
+
+.link3 {
+  text-decoration: none; /* Removes underline */
+  color: #007BFF; /* Sets the text color (blue) */
+  font-size: 16px; /* Adjusts the font size */
+  margin-left: 81px; /* Adds space between text and icon */
+  margin-top: -3px; /* Adds space on top */
+  display: flex; /* Makes the link a flex container */
+}
+
+/* Hover effect */
+.link3:hover {
+  color: #0056b3; /* Changes the color on hover */
+  text-decoration: underline; /* Adds underline on hover */ 
+}
+
+/* Active (clicked) state */
+.link3:active {
+  color: #003d80; /* Changes the color when clicked */
+}
+
+
+/* price range */
+.range h3 {
+  width: 248px;
+  height: 63px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: -8px 10px;
+
+}
+
+
+.range .arrow1 {
+  width: 11px;
+  height: 14px;
+  margin-right: 10px;
+  position: relative;
+  top: -30px;
+  left: 273px;
+  cursor: pointer;
+}
+
+.range hr {
+  width: 18%;
+  margin: 1px auto;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: -14px;
+  margin-bottom: 2px;
+  margin-left: 80px;
+  margin-right: -57px;
+}
+
+
+
+.condition h3 {
+  width: 248px;
+  height: 63px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: -8px 10px;
+  margin-left: 2px;
+
+}
+
+
+.condition .arrow1 {
+  width: 11px;
+  height: 14px;
+  margin-right: 10px;
+  position: relative;
+  top: -30px;
+  left: 273px;
+  cursor: pointer;
+}
+
+.condition hr {
+  width: 18%;
+  margin: 1px auto;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: -14px;
+  margin-bottom: 2px;
+  margin-left: 80px;
+  margin-right: -57px;
+}
+
+
+.rating h3 {
+  width: 248px;
+  height: 63px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: -8px 10px;
+  margin-left: -7px;
+}
+
+
+.rating .arrow1 {
+  width: 11px;
+  height: 14px;
+  margin-right: 10px;
+  position: relative;
+  top: -30px;
+  left: 273px;
+  cursor: pointer;
+}
+
+.rating hr {
+  width: 18%;
+  margin: 1px auto;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: -14px;
+  margin-bottom: 2px;
+  margin-left: 80px;
+  margin-right: -57px;
+}
+
+
+.manufact h3 {
+  width: 248px;
+  height: 63px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: -8px 10px;
+  margin-left: 18px;
+
+}
+
+
+.manufact .arrow1 {
+  width: 11px;
+  height: 14px;
+  margin-right: 10px;
+  position: relative;
+  top: -30px;
+  left: 273px;
+  cursor: pointer;
+}
+
+.manufact hr {
+  width: 18%;
+  margin: 1px auto;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: -14px;
+  margin-bottom: 2px;
+  margin-left: 80px;
+  margin-right: -57px;
+}
+
+
+
+/* verified */
+.box1 {
+  width: 850px;
+  height: 60px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1004px;
+  margin-left: 345px;
+  margin-right: -57px;
+  margin-bottom: 596px;
+  padding: 10px;
+}
+
+.box1 p {
+  font-size: 19px;
+    color: black;
+    margin-top: -7px;
+    margin-bottom: -10px;
+    margin-left: -45px;
+    margin-right: -197px;
+}
+
+
+.box1 input[type="checkbox"] {
+  margin-right: 49px;
+  margin-top: 4px;
+  margin-left: 267px;
+  width: 19px;
+  height: 51px;
+  accent-color: #007BFF;
+  background-color: none;
+}
+
+.box1 input[type="checkbox"]:checked + label {
+  color: #777; /* Make the text lighter */
+}
+
+
+.box1 .text {
+  width: 225px;
+  height: 79px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: -9px 25px;
+  margin-left: -32px;
+  margin-right: -404px;
+  margin-top: -18px;
+  margin-bottom: -24px;
+  font-size: 20px;
+}
+
+
+.box1 li {
+  display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 8px 23px;
+    top: 100px;
+    bottom: 90px;
+}
+
+
+.feature1 {
+  width: 175px;
+  height: 28px;
+  color: #000000;
+  background-color: white;
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: -1px auto;
+  margin-left: 280px;
+  margin-right: -11px;
+  margin-top: -19px;
+  margin-bottom: -23px;
+  text-align: left;
+  padding-top: 21px;
+  padding-left: 17px;
+  padding-bottom: 17px;
+  position: relative;
+}
+
+/* Hover Effect */
+.feature1:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Active State */
+.feature1:active {
+  background-color: #004080; /* Even darker blue when active (clicked) */
+  transform: scale(0.95); /* Slightly shrink when clicked */
+}
+
+
+
+.box-container {
+  display: flex;
+  align-items: center;
+  gap: -16px;
+  margin-top: 16px;
+  margin-left: -3px;
+  margin-right: 10px;
+  margin-bottom: -5px;
+}
+
+/* Individual box styling */
+.box {
+  width: 114px;
+  height: 34px;
+  background-color: #ffffff;
+  border: 1px solid rgb(0, 156, 218);
+  border-radius: 5px;
+  margin-top: -1111px;
+  margin-left: 347px;
+  margin-right: -323px;
+}
+
+/* cross styling */
+.box .cross1 {
+  width: 16px;
+  height: 90px;
+  margin-right: 10px;
+  position: relative;
+  top: -65px;
+  left: 90px;
+  cursor: pointer;
+}
+
+
+.box .cross2 {
+  width: 18px;
+  height: 90px;
+  margin-right: 10px;
+  position: relative;
+  top: -65px;
+  left: 86px;
+  cursor: pointer;
+}
+
+
+.box .cross3 {
+  width: 18px;
+  height: 90px;
+  margin-right: 10px;
+  position: relative;
+  top: -65px;
+  left: 87px;
+  cursor: pointer;
+}
+
+
+.box .cross4 {
+  width: 18px;
+  height: 90px;
+  margin-right: 10px;
+  position: relative;
+  top: -66px;
+  left: 86px;
+  cursor: pointer;
+}
+
+.box .cross5 {
+  width: 18px;
+  height: 90px;
+  margin-right: 10px;
+  position: relative;
+  top: -65px;
+  left: 85px;
+  cursor: pointer;
+}
+
+
+
+
+.box p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #333;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 7px;
+}
+
+/* filter */
+.filter {
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 19px;
+  margin-left: 345px;
+  margin-top: -1105px;
+  display: flex;
+}
+
+
+/* Styling the container for the row */
+.mobile-row {
+  display: flex;
+  width: 65%;
+  height: 50%;
+  margin-top: -529px;
+  margin-left: 320px;
+  margin-right: -160px;
+}
+
+/* Styling for individual boxes */
+.mobile1, .mobile2, .mobile3 {
+  width: 29%;
+  height: 24%;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  text-align: center;
+  padding: 25px;
+  background-color: #ffffff;
+  margin-top: 19px;
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the images inside the boxes */
+.m1 {
+  width: 204px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: -7px;
+  margin-left: -3px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Styling for horizontal lines inside the boxes */
+.mobile1 hr, .mobile2 hr, .mobile3 hr {
+  border: 1px solid #f3f2f2;
+  margin: 32px 0;
+  margin-top: -5px;
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-bottom: 100px;
+}
+
+
+.mobile-row1 {
+  display: flex;
+  width: 65%;
+  height: 50%;
+  margin-top: -529px;
+  margin-left: 320px;
+  margin-right: -160px;
+}
+
+/* Styling for individual boxes */
+.mobile4, .mobile5, .mobile6 {
+  width: 29%;
+  height: 24%;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  text-align: center;
+  padding: 25px;
+  background-color: #ffffff;
+  margin-top: 535px;
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the images inside the boxes */
+.m2 {
+  width: 204px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: -7px;
+  margin-left: -3px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Styling for horizontal lines inside the boxes */
+.mobile4 hr, .mobile5 hr, .mobile6 hr {
+  border: 1px solid #f3f2f2;
+  margin: 32px 0;
+  margin-top: -5px;
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-bottom: 100px;
+}
+
+
+.mobile-row2 {
+  display: flex;
+  width: 65%;
+  height: 50%;
+  margin-top: -529px;
+  margin-left: 320px;
+  margin-right: -160px;
+}
+
+/* Styling for individual boxes */
+.mobile7, .mobile8, .mobile9 {
+  width: 29%;
+  height: 24%;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  text-align: center;
+  padding: 25px;
+  background-color: #ffffff;
+  margin-top: 535px;
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the images inside the boxes */
+.m3 {
+  width: 204px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: -7px;
+  margin-left: -3px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Styling for horizontal lines inside the boxes */
+.mobile7 hr, .mobile8 hr, .mobile9 hr {
+  border: 1px solid #f3f2f2;
+  margin: 32px 0;
+  margin-top: -5px;
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-bottom: 100px;
+}
+
+
+/* Product Price */
+.mobile1 h3 {
+  font-size: 22px;
+  color: #000;
+  margin-top: -47px;
+  margin-left: -104px;
+  font-weight: bold;
+}
+
+/* Star Ratings */
+.star1-row1 {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-top: -1px;
+  margin-left: -79px;
+}
+
+.star1 {
+  font-size: 25px; /* Adjust star size */
+  color: #ccc; /* Default star color (gray) */
+}
+
+.star1.highlight {
+  color: #ffcc00; /* Highlighted star color (yellow) */
+}
+
+/* Product Description */
+.mobile1 p {
+  font-size: 15px;
+  color: #545353;
+  margin-top: 3px;
+  margin-left: -9px;
+  line-height: 1.5;
+}
+
+/* Heart Icon Box */
+.small-box {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  margin-top: -85px;
+  margin-left: 163px;
+}
+
+.heart {
+  width: 22px; /* Adjust size of the heart icon */
+  height: 22px;
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+
+
+.mobile2 h3 {
+  font-size: 22px;
+  color: #000;
+  margin-top: -47px;
+  margin-left: -104px;
+  font-weight: bold;
+}
+
+
+.mobile2 p {
+  font-size: 15px;
+  color: #545353;
+  margin-top: 3px;
+  margin-left: -9px;
+  line-height: 1.5;
+}
+
+
+
+.mobile3 h3 {
+  font-size: 22px;
+  color: #000;
+  margin-top: -47px;
+  margin-left: -104px;
+  font-weight: bold;
+}
+
+
+.mobile3 p {
+  font-size: 15px;
+  color: #545353;
+  margin-top: 3px;
+  margin-left: -9px;
+  line-height: 1.5;
+}
+
+
+.mobile4 h3 {
+  font-size: 22px;
+  color: #000;
+  margin-top: -47px;
+  margin-left: -104px;
+  font-weight: bold;
+}
+
+
+.mobile4 p {
+  font-size: 15px;
+  color: #545353;
+  margin-top: 3px;
+  margin-left: -9px;
+  line-height: 1.5;
+}
+
+
+.mobile5 h3 {
+  font-size: 22px;
+  color: #000;
+  margin-top: -47px;
+  margin-left: -104px;
+  font-weight: bold;
+}
+
+
+.mobile5 p {
+  font-size: 15px;
+  color: #545353;
+  margin-top: 3px;
+  margin-left: -9px;
+  line-height: 1.5;
+}
+
+
+.mobile6 h3 {
+  font-size: 22px;
+  color: #000;
+  margin-top: -47px;
+  margin-left: -104px;
+  font-weight: bold;
+}
+
+
+.mobile6 p {
+  font-size: 15px;
+  color: #545353;
+  margin-top: 3px;
+  margin-left: -9px;
+  line-height: 1.5;
+}
+
+.mobile7 h3 {
+  font-size: 22px;
+  color: #000;
+  margin-top: -47px;
+  margin-left: -104px;
+  font-weight: bold;
+}
+
+
+.mobile7 p {
+  font-size: 15px;
+  color: #545353;
+  margin-top: 3px;
+  margin-left: -9px;
+  line-height: 1.5;
+}
+
+.mobile8 h3 {
+  font-size: 22px;
+  color: #000;
+  margin-top: -47px;
+  margin-left: -104px;
+  font-weight: bold;
+}
+
+
+.mobile8 p {
+  font-size: 15px;
+  color: #545353;
+  margin-top: 3px;
+  margin-left: -9px;
+  line-height: 1.5;
+}
+
+.mobile9 h3 {
+  font-size: 22px;
+  color: #000;
+  margin-top: -47px;
+  margin-left: -104px;
+  font-weight: bold;
+}
+
+
+.mobile9 p {
+  font-size: 15px;
+  color: #545353;
+  margin-top: 3px;
+  margin-left: -9px;
+  line-height: 1.5;
+}
+
+
+/* show */
+.show {
+  width: 145px;
+  height: 20px;
+  color: black;
+  background-color: white;
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+  font-size: 19px;
+  cursor: pointer;
+  margin-left: 775px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 240px;
+  text-align: left;
+  padding-top: 25px;
+  padding-left: -500px;
+  padding-bottom: 26px;
+  padding-right: -150px;
+  padding-inline-start: 3px;
+  /* position: relative; */
+}
+
+.show .button-icon1 {
+  width: 15px;
+  height: 14px;
+  margin-right: -19px;
+  position: relative;
+  top: 1px;
+  left: 15px;
+}
+
+/* Styling for the button container */
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin-top: -64px;
+  margin-left: 930px;
+  margin-right: 150px;
+  margin-bottom: 27px;
+}
+
+/* Styling for individual buttons */
+button {
+  background-color: #ffffff; /* Light gray background */
+  border: 1px solid #c3c2c2;
+  font-size: 16px; /* Font size for button text */
+  padding: 17px 20px; /* Add padding for size */
+  cursor: pointer; /* Pointer cursor on hover */
+  outline: none; /* Remove default focus outline */
+  display: flex; /* Ensure proper alignment for buttons with icons */
+  align-items: center; /* Center icon and text vertically */
+  justify-content: center; /* Center content horizontally */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover and active effects */
+  border-radius: 0; /* Remove rounded corners for inner buttons */
+  margin: 0; /* Remove default margin */
+}
+
+/* Styling for the first and last buttons to create rounded corners */
+.btn1 {
+  border-top-left-radius: 5px; /* Rounded top-left corner */
+  border-bottom-left-radius: 5px; /* Rounded bottom-left corner */
+}
+
+.btn1 p {
+  font-size: 18px;
+  color: #b7b4b4;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  line-height: 1;
+  display: inline;
+}
+
+.btn2 {
+  color: gray;
+}
+.btn3 {
+  color: rgb(0, 0, 0);
+}
+.btn4 {
+  color: rgb(0, 0, 0);
+}
+
+.btn5 {
+  border-top-right-radius: 5px; /* Rounded top-right corner */
+  border-bottom-right-radius: 5px; /* Rounded bottom-right corner */
+}
+
+.btn5 p {
+  font-size: 18px;
+  color: #b7b4b4;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  line-height: 1;
+  display: inline;
+}
+
+/* Styling for the button icons */
+.button-icon2 {
+  width: 16px; /* Set icon size */
+  height: 16px;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #e0e0e0; /* Slightly darker gray on hover */
+}
+
+/* Active state for buttons */
+button:active {
+  background-color: #d0d0d0; /* Even darker gray when clicked */
+  transform: scale(0.98); /* Slightly shrink on click */
+}
+
+
+
+/* subscribe */
+.container5 {
+  width: 1500px;
+  height: 190px;
+  background-color: #e0dbdb;
+  border-radius: 5px;
+  margin-left: -10px;
+  margin-right: 50px;
+  margin-top: 47px;
+  margin-bottom: 10px;
+  padding: 37px;
+}
+
+
+/* Style for the heading */
+.sub1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-top: -5px;
+  margin-left: -125px;
+  font-weight: bold;
+}
+
+/* Style for the paragraph */
+.sub2 {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 18px;
+  text-align: center;
+  margin-left: -148px;
+  margin-right: -10px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+/* Style for the email input field */
+.email-input {
+  width: calc(35% - 197px);
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #b5b4b4;
+  border-radius: 9px;
+  margin-bottom: 18px;
+  margin-left: 400px;
+  /* margin-right: -10px; */
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Change input field border color on focus */
+.email-input:focus {
+  border-color: #007BFF; /* Blue border on focus */
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5); /* Add a blue shadow */
+}
+
+/* Style for the subscribe button */
+.subscribe-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: -59px;
+  margin-left: 705px;
+  margin-bottom: -9px;
+  margin-right: -26px;
+  width: 10%;
+}
+
+/* Change button color on hover */
+.subscribe-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* about us */
+.container6 {
+  width: 1445px;
+    height: 310px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: -6%;
+    margin-right: 74%;
+    margin-top: 0px;
+    padding: 37px;
+    border-bottom: 68px solid #e0dbdb;
+}
+
+.container6 img {
+  width: 178px;
+  height: 46px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 18px;
+  margin-left: 12%;
+}
+
+.container6 .img-fb {
+    width: 2%;
+    height: 22%;
+    margin-top: 15px;
+    margin-left: 12%;
+}
+
+.container6 .img-fb1 {
+    width: 2%;
+    height: 16%;
+    margin-top: -32px;
+    margin-left: 15%;
+    margin-bottom: 27px;
+}
+.container6 .img-fb2 {
+  width: 2%;
+  height: 22%;
+  margin-top: -62px;
+  margin-left: 18%;
+  margin-bottom: 45px;
+}
+
+.container6 .img-fb3 {
+  width: 2%;
+  height: 22%;
+  margin-top: -81px;
+  margin-left: 21%;
+  margin-bottom: 65px;
+}
+
+.container6 .img-fb4 {
+  width: 2%;
+  height: 22%;
+  margin-top: -111px;
+  margin-left: 24%;
+  margin-bottom: 83px;
+}
+
+
+.container6 .about1 {
+  font-size: 15px;
+  font-weight: normal;
+  color: #7d7c7c;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-top: 18px;
+  margin-left: -735px;
+}
+
+.container6 .about2 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #7d7c7c;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: -1px;
+    margin-left: -826px; 
+}
+
+
+.info1  {
+  flex: 1;
+  margin: -238px 551px;
+}
+
+.info2 {
+  flex: 1;
+  margin: 117px 624px;
+  display: inline-block; /* Corrected display property */
+  text-align: justify; /* Justify text for better readability */
+  max-width: 100%;
+  margin-left: 52%;
+  margin-top: 117px;
+  margin-bottom: 0px;
+}
+
+.info3 {
+  margin-left: 67%;
+  margin-top: -11%;
+}
+
+/* Heading styles */
+.info1 h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.info2 h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 2px;
+
+}
+
+.info3 h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 24px;
+  margin-top: 23px;
+}
+
+/* Paragraph styles */
+.info1 p  {
+  font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin: 1px -1px;
+    
+}
+
+
+.info2 p {
+  font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin: 1px -1px;
+    display: inline-block; /* Corrected display property */
+    text-align: justify; /* Justify text for better readability */
+    max-width: 100%; /* Ensure it doesn't exceed the container width */
+}
+
+.info3 p {
+    font-size: 16px;
+    color: #555;
+    margin-top: -16px;
+    margin-bottom: 21px;
+}
+
+
+.info4 h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 2px;
+  margin-left: 81%;
+  margin-top: -138px;
+}
+
+
+.container6 .img-app {
+  margin-top: 2px;
+    margin-left: 80%;
+    margin-bottom: 45px;
+    overflow-x: hidden;
+}
+
+.container6 .img-app1 {
+  margin-top: -41px;
+    margin-left: 80%;
+    margin-bottom: 31px;
+}
+
+
+/* footer section */
+footer {
+  text-align: center; /* Centers the text */
+  font-size: 14px; /* Adjust the font size */
+  color: #777; /* Sets a light gray color */
+  padding: 10px 0; /* Adds spacing above and below the text */
+  background-color: #f9f9f9; /* Light background color */
+  border-top: 1px solid #ddd; /* Adds a border at the top */
+}
+
+.foot {
+  color: #000;
+}
+
